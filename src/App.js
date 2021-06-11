@@ -18,7 +18,7 @@ reactdom.render(
     </h2>
 
     <ul>
-      <li>Apple</li>
+      <li style={{ color: "yellow" }}>Apple</li>
       <li>Banana</li>
       <li>orange</li>
     </ul>
@@ -42,3 +42,5 @@ reactdom.render(
 );
 
 //All the CSS tags used in JSX are camel cased
+//All javascript code should be placed inside curlybraces
+//Instyling can be done the key values should be placed inside tow curlybraces as above}
